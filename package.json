@@ -20,5 +20,10 @@
     "test": "node_modules/mocha/bin/mocha test/test.js -R spec",
     "cover": "istanbul cover _mocha -- test/test.js -R spec",
     "minify": "browserify -e cyanide.js | uglifyjs > cyanide.js.min.js"
+  },
+  "dependencies": {
+    "glob": "~3.2.8",
+    "microdom": "~0.2.1",
+    "microdom.byname": "~0.1.0"
   }
 }
